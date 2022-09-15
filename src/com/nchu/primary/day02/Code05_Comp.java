@@ -8,10 +8,10 @@ public class Code05_Comp {
 
     //返回一个任意长度，任意值的数组。
     public static int[] lenRandomValueRandom(int maxLen, int maxValue) {
-        int len = (int) Math.random() * maxLen;
+        int len = (int) (Math.random() * maxLen);
         int arr[] = new int[len];
         for (int i = 0; i < len; i++) {
-            arr[i] = (int) Math.random() * maxValue;
+            arr[i] = (int) (Math.random() * maxValue);
         }
         return arr;
     }
