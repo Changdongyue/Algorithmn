@@ -17,7 +17,6 @@ public class Code04_LocalMin {
         int len = (int) (Math.random() * maxLen);
         int arr[] = new int[len];
         arr[0] = (int) (Math.random() * maxValue);
-        ;
         for (int i = 1; i < len; i++) {
             do {
                 arr[i] = (int) (Math.random() * maxValue);

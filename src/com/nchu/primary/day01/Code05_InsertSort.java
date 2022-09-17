@@ -19,6 +19,9 @@ public class Code05_InsertSort {
         arr[j] = temp;
     }
     public static void insertSort(int arr[]){
+        if(arr == null || arr.length < 2 ){
+            return ;
+        }
         for(int i = 1 ; i < arr.length ; i++){
             while( i >=1  && arr[i-1] > arr[i]){
                 swap(arr,i-1,i);

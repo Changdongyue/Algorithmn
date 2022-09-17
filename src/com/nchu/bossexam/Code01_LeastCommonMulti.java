@@ -15,7 +15,7 @@ public class Code01_LeastCommonMulti {
         }
 
     }
-
+    //先求两个数的最大公因数
     public static int gcd(int num1, int num2) {
 //        if (num1 < num2) {
 //            int temp = num1;
