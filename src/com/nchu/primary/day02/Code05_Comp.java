@@ -1,5 +1,5 @@
 package com.nchu.primary.day02;
-
+//对数器
 public class Code05_Comp {
     public static void main(String[] args) {
         int arr[] = new int[]{1,2,56,5};
