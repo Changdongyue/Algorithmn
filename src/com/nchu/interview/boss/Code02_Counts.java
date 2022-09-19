@@ -1,4 +1,4 @@
-package com.nchu.bossexam;
+package com.nchu.interview.boss;
 
 import java.util.Scanner;
 
