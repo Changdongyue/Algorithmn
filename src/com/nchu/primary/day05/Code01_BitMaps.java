@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 /*
-    num1 % num2 == num1 & (num2-1) num2必须是2的n次方
+    num1 % num2 == num1 & (num2-1) 注意：num2必须是2的n次方
     变成0 --> &0
     变成1 --> |1
  */
